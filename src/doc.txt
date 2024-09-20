@@ -1,0 +1,11 @@
+Parar iniciar um projto sass:
+
+1) criar pasta src com config dentro e criar outra pasta build
+2) npm initi
+3) criar arquivo main.scss dentro de  src
+4) colocar "sass": "sass source/main.scss build/main.css --watch" no script json
+5)npm init
+6)npm install sass --save-dev
+7)criar o gitignore pro node_modules
+8)npm run sass
+9)npm run sass main.scss main.css
