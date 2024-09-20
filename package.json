@@ -4,7 +4,7 @@
   "description": "Neste exercício você deve:",
   "main": "index.js",
   "scripts": {
-    "sass": "sass src/main.scss build/main.css",
+    "sass": "sass src/main.scss build/main.css --watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
