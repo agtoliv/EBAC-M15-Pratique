@@ -1,3 +1,5 @@
+@use '../config/var.scss';
+
 section {
     padding: 56px 0;
 }
@@ -18,7 +20,7 @@ section {
 
 .product-button {
     display: block;
-    background-color: #44bd32;
+    background-color: var.$corButton;
     color: #fff;
     text-align: center;
     padding: 8px 0;
@@ -28,5 +30,5 @@ section {
 }
 
 .product-button:hover {
-    background-color: #4cd137;
+    background-color: var.$corButtonHover;
 }
