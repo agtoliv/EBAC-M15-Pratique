@@ -4,3 +4,20 @@
 body {
     background-color: var.$corFundo;
 }
+
+li {
+    list-style: none;
+}
+
+.container {
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #182C61;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
